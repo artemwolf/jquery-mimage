@@ -8,12 +8,12 @@ Usage
 
 html:
 -----
-<img src="images/image-tablet.png" 
+<code><img src="images/image-tablet.png" 
     data-src-mobile="images/image-mobile.png"
     data-src-tablet="images/image-tablet.png"
     data-src-desktop="images/image-desktop.png"
     data-src-big="images/image-big.png"
-    alt="Image image" />
+    alt="Image image" /></code>
 
 js:
 ---
