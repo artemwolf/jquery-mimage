@@ -8,16 +8,16 @@ Usage
 
 html:
 -----
-<code><pre>&lt;img src="images/image-tablet.png" 
+<pre>&lt;img src="images/image-tablet.png" 
     data-src-mobile="images/image-mobile.png"
     data-src-tablet="images/image-tablet.png"
     data-src-desktop="images/image-desktop.png"
     data-src-big="images/image-big.png"
-    alt="Image image" /></pre></code>
+    alt="Image image" /></pre>
 
 js:
 ---
-<code><pre>$(document).ready(function(){
+<pre>$(document).ready(function(){
     $.mImg({
         onresize: false,
         loader: true,
@@ -28,7 +28,7 @@ js:
             desktop: 1280
         }
     });
-}</pre></code>
+}</pre>
 
 How it works
 ============
