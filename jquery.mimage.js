@@ -1,6 +1,6 @@
 /*!
  * jQuery Multisource Image Plugin
- * version: 0.1.0-alpha.2
+ * version: 0.1.1
  * Requires jQuery v1.5.0 or later
  * Copyright (c) 2014 Artem Wolf
  * Examples and documentation at: https://github.com/artemwolf/jquery-mimage/
