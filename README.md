@@ -6,6 +6,8 @@ jQuery plugin for mediaquery-like using of multiple images sources. Short &amp; 
 Usage
 =====
 
+Set up an img element with specified "data-src-*" attributes. It can be "-mobile","-tablet","-desktop" and "-big". Every image will use when window size is ''less than appropriate size in options'', exepts "-big" - it will load if window width is more than size.destop.
+
 html:
 -----
 <pre>&lt;img src="images/image-tablet.png" 
@@ -61,3 +63,4 @@ Link to the loader image.
 
 sizes
 -----
+Place to set breakpoints of mediaqueries. Contains three options: "mobile","tablet" and "desktop".
