@@ -38,3 +38,26 @@ The img's "src" attribute is set to default image for compatibility in case if J
 Supports
 ========
 Everything, even IE7 and upper.
+
+Options
+=======
+
+selector
+--------
+Using to specify the filter of images. If "null", will be applied only for images with "data-src-*" attributes. Can be string of jQuery filter function.
+
+onresize
+--------
+Function to checkout working. Bind changing of srcs to the window.resize event.
+
+loader
+------
+If set to "true" automatically adds the loader to all selected images. (sic!) If "loaderImg" wasn't set it will not work. To preload loader put this code in the &lt;head>:
+<pre>&lt;script>var a=new Image();a.src="%pathToYourImage%"&lt;/script></pre>
+
+loaderImg
+---------
+Link to the loader image.
+
+sizes
+-----
