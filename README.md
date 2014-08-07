@@ -50,12 +50,13 @@ Using to specify the filter of images. If "null", will be applied only for image
 
 onresize
 --------
-Function to checkout working. Bind changing of srcs to the window.resize event.
+Function to check that plugin works. Binds changing of srcs to the window.resize event.
 
 loader
 ------
-If set to "true" automatically adds the loader to all selected images. (sic!) If "loaderImg" wasn't set it will not work. To preload loader put this code in the &lt;head>:
+If set to "true" automatically adds the loader to all selected images. (sic!) If "loaderImg" wasn't set this will not work. To preload loader (to show it first) put this code in the &lt;head>:
 <pre>&lt;script>var a=new Image();a.src="%pathToYourImage%"&lt;/script></pre>
+And all your scripts at the end of the html.
 
 loaderImg
 ---------
