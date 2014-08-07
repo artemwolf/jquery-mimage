@@ -19,6 +19,7 @@ js:
 ---
 <pre>$(document).ready(function(){
     $.mImg({
+        selector: null,
         onresize: false,
         loader: true,
         loaderImg: undefined,
